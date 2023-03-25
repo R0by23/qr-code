@@ -1,0 +1,43 @@
+:root {
+  --shadow-color: 0deg 0% 66%;
+  --shadow-elevation-medium: -1px 1px 1.5px hsl(var(--shadow-color) / 0.31),
+    -2.3px 2.3px 3.4px -0.7px hsl(var(--shadow-color) / 0.29),
+    -4.7px 4.7px 7px -1.5px hsl(var(--shadow-color) / 0.27),
+    -9.7px 9.7px 14.5px -2.2px hsl(var(--shadow-color) / 0.25),
+    -19.1px 19.1px 28.6px -2.9px hsl(var(--shadow-color) / 0.23);
+}
+
+body {
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+}
+
+.top-container {
+  margin: 0px auto;
+  margin-top: 8%;
+  padding: 18px;
+  background-color: hsl(0, 0%, 100%);
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: var(--shadow-elevation-medium);
+}
+
+#qr-code {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: hsl(218, 44%, 22%);
+  padding: 8px;
+  text-align: center;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  margin-top: -20px;
+  padding: 1rem;
+  text-align: center;
+}
